@@ -47,15 +47,19 @@ function loadStyle(getStyleDirectory) {
 
     console.log(`Loading: ${getStyleDirectory}`);
 
+    // adapt path to local context
+    const urlRoot = location.pathname;
+    console.log("url root:" + urlRoot);
+
     // add chosen CSS file
     let addedStyle = document.createElement("link");
     addedStyle.setAttribute("rel", "stylesheet");
     addedStyle.setAttribute("media", "all");
-    addedStyle.setAttribute("href", `/${getStyleDirectory}/styles.css`);
+    addedStyle.setAttribute("href", `${urlRoot}${getStyleDirectory}/styles.css`);
     document.head.append(addedStyle);
 
     // add chosen JS file
-    loadJS(`/${getStyleDirectory}/scripts.js`);
+    loadJS(`${urlRoot}${getStyleDirectory}/scripts.js`);
 
     // change page title
     document.title += ` (${getStyleDirectory})`;
