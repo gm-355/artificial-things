@@ -99,8 +99,9 @@ main li { padding-bottom: 1em; }
 main li:last-child { padding-bottom: 0; }
 
 /* change the color of the strong items in the list */
-main li strong {
+main li span {
     color: var(--bright-color);
+    font-weight: bold;
 }
 
 /* style the footer block with border, color, and spacing */
