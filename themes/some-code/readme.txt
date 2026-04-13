@@ -6,4 +6,4 @@
 
 <p><strong>Description:</strong></p>
 
-<p>New style</p>
+<p>Changed into new font, gave the footer and header a part border, adjusted placement</p>
