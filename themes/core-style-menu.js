@@ -22,5 +22,10 @@
     {
         "label":"Zany Palm Tree",
         "path":"zany-palm-tree"
+    },
+    {
+        "label":"Bug Free Robot",
+        "path":"bug-free-robot"
     }
+
 ]
