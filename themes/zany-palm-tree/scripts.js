@@ -1,6 +1,6 @@
 /* 
 
-Default JavaScript 
+Legendary Disco JavaScript 
 
 Instead of document.addEventListener() with DOMContentLoaded, put your initialization code inside the "initalize()" function.
 Make sure its starting line is "export function initializePage() {" and leave in the first console log message.
@@ -13,29 +13,15 @@ Your first statement should be to call confirmTheme() with the name of your them
 export function initializePage() {
 
     // call main function that outputs message to console and update page title
-    confirmTheme("zany-palm-tree");
+    confirmTheme("Legendary Disco");
+
+    let newArticle = document.createElement("article");
+    document.body.append(newArticle);
+
+    let header = document.querySelector("header");
+    let main = document.querySelector("main");
+    let footer = document.querySelector("footer");
+
+    newArticle.append(header, main, footer);
 
 }
-
-    // Im having a ton of fun with this i love the name I got
-    document.querySelector("h1").textContent = " Zany Palm Tree Mode ";
-
-    // lil animation
-    const paragraphs = document.querySelectorAll("p");
-
-    paragraphs.forEach((p, i) => {
-        p.style.opacity = 0;
-        p.style.transform = "translateY(20px)";
-        
-        setTimeout(() => {
-            p.style.transition = "all 0.6s ease";
-            p.style.opacity = 1;
-            p.style.transform = "translateY(0)";
-        }, i * 200);
-    });
-
-    // tropical color splash!!
-    const colors = ["#00b894", "#fdcb6e", "#e17055", "#0984e3"];
-    const randomColor = colors[Math.floor(Math.random() * colors.length)];
-
-    document.querySelector("h1").style.color = randomColor;
