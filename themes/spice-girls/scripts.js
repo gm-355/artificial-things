@@ -1,10 +1,6 @@
 /* 
 
-<<<<<<<< HEAD:themes/spice-girls/scripts.js
 Spice-Girls JavaScript 
-========
-Default JavaScript 
->>>>>>>> 763c13b (step 4 done):themes/palm-tree/scripts.js
 
 Instead of document.addEventListener() with DOMContentLoaded, put your initialization code inside the "initalize()" function.
 Make sure its starting line is "export function initializePage() {" and leave in the first console log message.
