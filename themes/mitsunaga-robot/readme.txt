@@ -2,7 +2,7 @@
 
 <p><strong>Layout name:</strong> Mitsunaga Robot </p>
 
-<p><strong>Layout path:</strong> Mitsunaga Robot </p>
+<p><strong>Layout path:</strong> mitsunaga-robot</p>
 
 <p><strong>Description:</strong></p>
 
