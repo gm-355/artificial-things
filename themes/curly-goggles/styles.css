@@ -1,0 +1,42 @@
+/* 
+
+Curly Goggles CSS - turquoise theme
+
+*/
+
+body {
+    padding: 1rem;
+    font-family:'Lucida Sans Unicode';
+    background-color:#feebe8;
+}
+header{
+    font-size: 2rem;
+    text-align: center;
+    border: solid .2em;
+    border-color: #067971;
+    border-radius: 2em;
+    color:#52180f;
+    height: 8em;
+    
+}
+
+main{
+    color:#255752;
+}
+
+main ul{
+    border: solid 3px;
+    border-radius: 2em;
+    border-color:067971;
+}
+
+article{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+
+}
+
+footer{
+    color: #067971;
+}

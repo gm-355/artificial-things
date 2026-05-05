@@ -26,6 +26,17 @@
     {
         "label":"Bug Free Robot",
         "path":"bug-free-robot"
+    },
+    {
+        "label":"Black Pink",
+        "path":"black-pink"
+    },
+    {
+        "label":"Naptime Nuisance",
+        "path":"naptime-nuisance"
+    },
+    {
+        "label":"Stunning Dollop",
+        "path":"stunning-dollop"
     }
-
 ]
